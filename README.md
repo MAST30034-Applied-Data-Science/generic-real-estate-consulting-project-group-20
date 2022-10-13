@@ -1,2 +1,9 @@
 # Generic Real Estate Consulting Project
-Groups should generate their own suitable `README.md`.
+## Group 20:
+* Rei Hsuan Cheng
+* Keith Howen
+* Benjamin Lo
+* Kalyana Sreeram
+* Andreas Battistini
+
+
