@@ -1,10 +1,12 @@
 # Generic Real Estate Consulting Project
+
+
 ## Group 20:
-* Rei Hsuan Cheng
-* Keith Howen
-* Benjamin Lo
-* Kalyana Sreeram
 * Andreas Battistini
+* Benjamin Lo
+* Kalyana Kotilingam Sreeram
+* Keith Howen
+* Rei Hsuan Cheng
 
 ## Project Aim:
 * The aim of this project is to reveal the underlying relationship between rental price and various factors such as income, population, unemployment and distance to facilities. In tandem with preliminary analysis, several machine learning models were also trained to explain the most critical internal and external features for the prediction of future rental prices for the next **5 years** (2022 - 2027). In addition, suburbs were scored based on elements of liveability in order to pinpoint the most liveable and affordable locations for renters.
@@ -22,7 +24,7 @@ Broadly, We intend to answer three questions:
 * Summary notebook is the last item in the ```main``` branch, called ```summary_notebook```
   * Please ensure every notebook in the ```notebooks``` directory are ran prior to the ```summary_notebook```. This ensures that graphs used in the summary show up correctly
   
-### Notebooks Summary - Workflow and Pipeline:
+## Notebooks Summary - Workflow and Pipeline:
 
 * 1.0_Primary_Rental_Scrape - Scrape multiple rental properties in Victoria 
 * 1.1_Primary_Cleaning_Parse_Rental - Cleaning and transforming scraped data using various pandas and regex tools 
@@ -39,6 +41,8 @@ Broadly, We intend to answer three questions:
 * 2.4_Preliminary_Analysis_Income - Explaratory data analysis on how residents income affect rental prices 
 * 2.5_Preliminary_Analysis_Population_Immigration - Explaratory data analysis on how immigration patterns affect rental prices 
 * 2.6_Geospatial_For_Scraped_Rental - Geospatial analysis for both internal and external attributes affecting rental prices 
-
-## Project Aim:
-* The aim of this project is to reveal the underlying relationship between rental price and various factors such as income, population, unemployment and distance to facilities. In tandem with preliminary analysis, several machine learning models were also trained to explain the most critical internal and external features for the prediction of future rental prices for the next **5 years** (2022 - 2027). In addition, suburbs were scored based on elements of liveability in order to pinpoint the most liveable and affordable locations for renters.
+* 3.0_Merging_All_Datasets_For_Modelling - Merging primary and external datasets for modelling
+* 3.1_Modelling_Involving_Unemployment_With_Historical_And_Scraped_Rental -  Extract important internal and external features in explaning 2022 rental prices using a Elastic Net model 
+* 3.2.0_Establishing_Modelling_Methadology - Establishing a methadology for predicting future rental prices in Victoria 
+* 3.2.1_Predicting_Future_Suburb_Rents - Predicting and visualising future rental prices for suburbs upto 2027 using XGboost and Radom Forest regressions 
+* 3.3_Ranking_Top_Suburbs_By_Liveability_Final - Use K-means clustering and personalised scoring metrics top determine most livable and affordable suburbs in Victoria 
