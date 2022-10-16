@@ -46,3 +46,11 @@ Broadly, we intend to answer three questions:
 * 3.2.0_Establishing_Modelling_Methadology - Establishing a methadology for predicting future rental prices in Victoria 
 * 3.2.1_Predicting_Future_Suburb_Rents - Predicting and visualising future rental prices for suburbs upto 2027 using XGboost and Radom Forest regressions 
 * 3.3_Ranking_Top_Suburbs_By_Liveability_Final - Use K-means clustering and personalised scoring metrics top determine most livable and affordable suburbs in Victoria 
+
+
+## References for External Datasets Used
+1. [Unemployment Dataset (```SALM Smoothed SA2 Datafiles (ASGS 2016) - March quarter 2022 (2).csv```)](https://www.nationalskillscommission.gov.au/topics/small-area-labour-markets#:~:text=CSV-,SALM%20Smoothed%20SA2%20Datafiles%20(ASGS%202016)%20%2D%20March%20quarter%202022,-(1.8%20mb))
+
+2. [Australian Suburbs Lookup Data (```georef-australia-state-suburb.zip```)](https://public.opendatasoft.com/explore/dataset/georef-australia-state-suburb/table/?disjunctive.ste_code&disjunctive.ste_name&disjunctive.lga_code&disjunctive.lga_name&disjunctive.scc_code&disjunctive.scc_name)
+
+
