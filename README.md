@@ -11,7 +11,7 @@
 ## Project Aim:
 * The aim of this project is to reveal the underlying relationship between rental price and various factors such as income, population, unemployment and distance to facilities. In tandem with preliminary analysis, several machine learning models were also trained to explain the most critical internal and external features for the prediction of future rental prices for the next **5 years** (2022 - 2027). In addition, suburbs were scored based on elements of liveability in order to pinpoint the most liveable and affordable locations for renters.
 
-Broadly, We intend to answer three questions:
+Broadly, we intend to answer three questions:
 
 1. What are the most important internal and external features in predicting rental prices ?
 2. What are the top 10 suburbs with the highest predicted growth rate until 2027 ?
