@@ -13,7 +13,7 @@
 
 Broadly, We intend to answer three questions:
 
-1. What are the most important internal and external features in predicting rental prices?
+1. What are the most important internal and external features in predicting rental prices ?
 2. What are the top 10 suburbs with the highest predicted growth rate until 2027 ?
 3. What are the most liveable and affordable suburbs in Victoria ?
 
